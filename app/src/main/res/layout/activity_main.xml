@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff1ba1ee"
+
+    tools:context="com.example.muhammadsuhaib.weatherapp.MainActivity">
+    
+    <TextView
+        android:id="@+id/cityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:text="Lahore,PK"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+      
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/cityText"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        />
+
+      <TextView
+          android:id="@+id/tempText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="12 Deg"
+          android:textColor="#fff"
+          android:layout_below="@id/cityText"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="25dp"
+          android:textSize="42sp"
+          />
+       <TextView
+           android:id="@+id/windText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Wind"
+           android:textSize="20sp"
+           android:textColor="#fff"
+           android:layout_below="@id/imageIcon"
+           android:layout_marginTop="35dp"
+           android:layout_marginLeft="25dp"
+           />
+    <TextView
+        android:id="@+id/cloudText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cloud"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_below="@id/windText"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        />
+
+    <TextView
+        android:id="@+id/pressureText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pressure"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_below="@id/cloudText"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        />
+
+
+    <TextView
+        android:id="@+id/humidityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humidity"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_below="@id/pressureText"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        />
+
+    <TextView
+        android:id="@+id/sunriseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunrise"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_below="@id/humidityText"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        />
+
+
+    <TextView
+        android:id="@+id/sunsetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunset"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_below="@id/sunriseText"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        />
+
+
+    <TextView
+        android:id="@+id/lastUpdatedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="Last Updated"
+        android:textColor="#fff"
+        android:layout_below="@id/sunsetText"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
